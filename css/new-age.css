@@ -64,13 +64,15 @@ section h2 {
   font-family: 'Catamaran', 'Helvetica', 'Arial', 'sans-serif';
   font-weight: 200;
   letter-spacing: 1px;
+  background-color: #217B8C;
 }
 
 #mainNav .navbar-brand {
-  color: #fdcc52;
+  color: white;
   font-family: 'Catamaran', 'Helvetica', 'Arial', 'sans-serif';
   font-weight: 200;
   letter-spacing: 1px;
+  background-color: #217B8C;
 }
 
 #mainNav .navbar-brand:hover, #mainNav .navbar-brand:focus {
@@ -112,7 +114,7 @@ section h2 {
 @media (min-width: 992px) {
   #mainNav {
     border-color: transparent;
-    background-color: transparent;
+    background-color: #217B8C;
   }
   #mainNav .navbar-brand {
     color: fade(white, 70%);
@@ -154,19 +156,21 @@ header.masthead {
   padding-top: 150px;
   padding-bottom: 100px;
   color: white;
-  background: url("../img/bg-pattern.png"), #7b4397;
-  background: url("../img/bg-pattern.png"), -webkit-linear-gradient(to left, #7b4397, #dc2430);
-  background: url("../img/bg-pattern.png"), linear-gradient(to left, #7b4397, #dc2430);
+  background: url("../img/bgpg.png"), #7b4397;
+  background: url("../img/bgpg.png"), -webkit-linear-gradient(to left, #7b4397, #dc2430);
+  background: url("../img/bgpg.png"), linear-gradient(to left, #7b4397, #dc2430);
+  background-position: center center;
 }
 
 header.masthead .header-content {
-  max-width: 500px;
+  max-width: 1000px;
   margin-bottom: 100px;
   text-align: center;
 }
 
 header.masthead .header-content h1 {
   font-size: 30px;
+  color: #111111;
 }
 
 header.masthead .device-container {
@@ -206,6 +210,7 @@ section.download {
 section.download h2 {
   font-size: 50px;
   margin-top: 0;
+  color: white;
 }
 
 section.download .badges .badge-link {
@@ -398,9 +403,9 @@ footer ul li a:hover, footer ul li a:focus, footer ul li a:active, footer ul li 
 }
 
 .bg-primary {
-  background: #fdcc52;
-  background: -webkit-linear-gradient(#fdcc52, #fdc539);
-  background: linear-gradient(#fdcc52, #fdc539);
+  background: #217B8C;
+  background: -webkit-linear-gradient(#217B8C, rgb(29, 107, 122));
+  background: linear-gradient(#217B8C, rgb(29, 107, 122));
 }
 
 .text-primary {
@@ -416,6 +421,7 @@ footer ul li a:hover, footer ul li a:focus, footer ul li a:active, footer ul li 
   color: white;
   border: 1px solid;
   border-color: white;
+  background-color: #77DF7B;
 }
 
 .btn-outline:hover, .btn-outline:focus, .btn-outline:active, .btn-outline.active {
