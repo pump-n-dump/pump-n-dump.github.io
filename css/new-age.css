@@ -201,10 +201,26 @@ header.masthead .device-container .screen img {
     max-width: 325px;
   }
 }
-
-section.download {
+section#download {
   position: relative;
-  padding: 150px 0;
+  padding: 250px 0;
+  font-color: black;
+  background-image: url("../img/cryptobuzz.png");
+  -webkit-filter: grayscale(50%);
+  background-position: center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.jumbtron{
+  background: rgba(200, 54, 54, 0.5);
+}
+
+section.download .download-content {
+  position: relative;
+  z-index: 1;
 }
 
 section.download h2 {
